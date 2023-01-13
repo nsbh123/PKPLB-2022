@@ -1,0 +1,231 @@
+{
+  "id": "1349ea2e-40b4-4de9-80c5-8925d2c8e71b",
+  "version": "2.0",
+  "name": "lapor1",
+  "url": "https://www.lapor.go.id",
+  "tests": [{
+    "id": "714e7dc2-60b9-49e7-a9ea-83be36dbcf12",
+    "name": "lapor1",
+    "commands": [{
+      "id": "4e0b330e-5888-444d-ad06-d522f030db42",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "79db9efe-ab08-4661-a6d8-5d10c5777fa5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "697x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "14ec2825-3bed-48b7-a4f4-5fe3d1053bab",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(3) > span",
+      "targets": [
+        ["css=.btn:nth-child(3) > span", "css:finder"],
+        ["xpath=//div[@id='classification_complaint']/label[3]/span", "xpath:idRelative"],
+        ["xpath=//label[3]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'PERMINTAAN INFORMASI')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "030c3e78-e555-4406-a083-9d85caf4b507",
+      "comment": "",
+      "command": "click",
+      "target": "name=title",
+      "targets": [
+        ["name=title", "name"],
+        ["css=.complaint-form-category:nth-child(5) > .form-control", "css:finder"],
+        ["xpath=//input[@name='title']", "xpath:attributes"],
+        ["xpath=//section[@id='complaint-box']/div/div/div/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "045fb300-70f2-4c97-9264-47688a7c8e06",
+      "comment": "",
+      "command": "type",
+      "target": "name=title",
+      "targets": [
+        ["name=title", "name"],
+        ["css=.complaint-form-category:nth-child(5) > .form-control", "css:finder"],
+        ["xpath=//input[@name='title']", "xpath:attributes"],
+        ["xpath=//section[@id='complaint-box']/div/div/div/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "judul laporan"
+    }, {
+      "id": "5c7b8694-868c-4cee-b3fb-fb1aecd99891",
+      "comment": "",
+      "command": "click",
+      "target": "name=content",
+      "targets": [
+        ["name=content", "name"],
+        ["css=.textarea-flex", "css:finder"],
+        ["xpath=//textarea[@id='']", "xpath:attributes"],
+        ["xpath=//section[@id='complaint-box']/div/div/div/form/div[4]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "78fc95f3-ed1d-4de4-aa12-fc7a148c0c62",
+      "comment": "",
+      "command": "type",
+      "target": "name=content",
+      "targets": [
+        ["name=content", "name"],
+        ["css=.textarea-flex", "css:finder"],
+        ["xpath=//textarea[@id='']", "xpath:attributes"],
+        ["xpath=//section[@id='complaint-box']/div/div/div/form/div[4]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "isi laporan"
+    }, {
+      "id": "f4962ceb-cbb0-45dd-bf44-23c68ab56527",
+      "comment": "",
+      "command": "click",
+      "target": "id=location_id-selectized",
+      "targets": [
+        ["id=location_id-selectized", "id"],
+        ["css=#location_id-selectized", "css:finder"],
+        ["xpath=//input[@id='location_id-selectized']", "xpath:attributes"],
+        ["xpath=//section[@id='complaint-box']/div/div/div/form/div[6]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ecbf480a-7a7e-4f73-8e06-c073fa480d66",
+      "comment": "",
+      "command": "click",
+      "target": "id=select_institution_id-selectized",
+      "targets": [
+        ["id=select_institution_id-selectized", "id"],
+        ["css=#select_institution_id-selectized", "css:finder"],
+        ["xpath=//input[@id='select_institution_id-selectized']", "xpath:attributes"],
+        ["xpath=//section[@id='complaint-box']/div/div/div/form/div[7]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "97066b62-5783-4e68-ba2f-3982615ca6fb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.select2-selection__placeholder",
+      "targets": [
+        ["css=.select2-selection__placeholder", "css:finder"],
+        ["xpath=//span[@id='select2-select_categories-container']/span", "xpath:idRelative"],
+        ["xpath=//span/span/span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e341077a-550f-40db-af75-b495325fb6cd",
+      "comment": "",
+      "command": "click",
+      "target": "css=#select2-select_categories-result-vkii-autoUniqueVal_14 > .item-label",
+      "targets": [
+        ["css=#select2-select_categories-result-vkii-autoUniqueVal_14 > .item-label", "css:finder"],
+        ["xpath=//li[@id='select2-select_categories-result-vkii-autoUniqueVal_14']/span[2]", "xpath:idRelative"],
+        ["xpath=//li[441]/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "33da381a-a821-48ef-9f47-717101a9a1f2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.checkbox:nth-child(1) > label",
+      "targets": [
+        ["css=.checkbox:nth-child(1) > label", "css:finder"],
+        ["xpath=//section[@id='complaint-box']/div/div/div/form/div[10]/div/div[2]/div/label", "xpath:idRelative"],
+        ["xpath=//div[2]/div/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Anonim')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ce24fd1-02dc-40d7-a487-a4b0691ae61f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=Rahasia",
+      "targets": [
+        ["id=Rahasia", "id"],
+        ["name=is_secret", "name"],
+        ["css=#Rahasia", "css:finder"],
+        ["xpath=//input[@id='Rahasia']", "xpath:attributes"],
+        ["xpath=//section[@id='complaint-box']/div/div/div/form/div[10]/div/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1718ee98-9f07-4b4f-8e69-0b8933971128",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=Rahasia",
+      "targets": [
+        ["id=Rahasia", "id"],
+        ["name=is_secret", "name"],
+        ["css=#Rahasia", "css:finder"],
+        ["xpath=//input[@id='Rahasia']", "xpath:attributes"],
+        ["xpath=//section[@id='complaint-box']/div/div/div/form/div[10]/div/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "73060778-5069-47d8-8f72-7f9689558c8e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.checkbox:nth-child(2) > label",
+      "targets": [
+        ["css=.checkbox:nth-child(2) > label", "css:finder"],
+        ["xpath=//section[@id='complaint-box']/div/div/div/form/div[10]/div/div[2]/div[2]/label", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Rahasia')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "23bf6c16-16ae-46cd-868d-1a76029f4985",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit-complaint",
+      "targets": [
+        ["id=submit-complaint", "id"],
+        ["linkText=LAPOR!", "linkText"],
+        ["css=#submit-complaint", "css:finder"],
+        ["xpath=(//a[contains(text(),'LAPOR!')])[3]", "xpath:link"],
+        ["xpath=//a[@id='submit-complaint']", "xpath:attributes"],
+        ["xpath=//section[@id='complaint-box']/div/div/div/form/div[10]/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//div[10]/div/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "786fe22d-01d8-4097-8c79-1d625eeae00f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.h4",
+      "targets": [
+        ["css=.h4", "css:finder"],
+        ["xpath=//div[3]/div/div/div/div/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "36c9e633-32f3-4082-84c2-e308dc02d5eb",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "1b16e87f-ebcb-48f3-a68e-57e6050b0110",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.lapor.go.id/"],
+  "plugins": []
+}
